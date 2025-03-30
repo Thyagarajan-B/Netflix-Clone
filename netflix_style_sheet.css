@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+
+body {
+    background-color: black;
+}
+
+.bg {
+    background-image: url(bg_image.jpg);
+    background-position: center;
+    background-size: max(1500px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.bg .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 10 0px;
+}
+
+.bg nav span img {
+    width: 149px;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    /* left: -120px;   */
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    color: white;
+    background-color: red;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+
+}
+
+
+.content h1 {
+    font-size: 50px;
+    /* font-weight: bolder; */
+    margin-top: 180px;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.content h2 {
+    font-size: 28px;
+    /* font-weight: 500; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    /* letter-spacing: 1.3px; */
+}
+
+.content h3 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* letter-spacing: 1.2px;    */
+}
+
+.content h1,
+h2,
+h3 {
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input input {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    font-size: 12px;
+    height: 50px;
+    width: 350px;
+    padding: 3px 8px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    /* background-color: transparent; */
+    /* opacity: 1; */
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(98, 97, 97);
+    font-size: 15px;
+    font-weight: bold;
+    /* background-color: rgb(0, 0, 0); */
+    /* height: 20px;
+    width: 100px; */
+}
+
+.input button {
+    background-color: white;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding: 2px 8px;
+    margin-left: 9px;
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background-color: rgb(205, 5, 15);
+}
+
+.input button:hover {
+    background-color: rgb(207, 49, 57);
+}
+
+.buttons .signin {
+    background-color: rgb(224, 7, 18);
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 3px;
+    border-style: none;
+    height: 28px;
+    width: 80px;
+
+}
+
+.buttons .signin:hover {
+    background-color: rgb(207, 49, 57);
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(73, 72, 72);
+    position: relative;
+    z-index: 20;
+    top: 130px;
+}
+
+.one {
+    height: 270px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* max-width: 70vw; */
+    margin-top: 150px;
+}
+
+.one :first-child {
+    color: white;
+    /* font-size : 30px; */
+
+}
+
+.one .nl {
+    font-size: 25px;
+    margin-top: 17px;
+}
+
+.img {
+    position: relative;
+}
+
+.one span {
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    /* letter-spacing: 0.2px; */
+}
+
+.one img {
+    width: 35vw;
+    /* margin-top: 380px; */
+    position: relative;
+    margin-top: 50px;
+}
+
+.one video {
+    position: absolute;
+    right: 174px;
+    margin-bottom: -37px;
+    width: 393px;
+}
+
+.two {
+    position: relative;
+    z-index: 10;
+    position: relative;
+}
+
+.two #second_section_span {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+
+}
+
+
+#third_section_div {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.faq h2 {
+    margin-bottom: 50px;
+    position: relative;
+    top: 200px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+}
+
+.faqbox {
+
+    position: relative;
+    display: flex;
+    top: 200px;
+    font-size: 23px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 55px;
+    padding: 22px;
+    justify-content: space-between;
+    max-width: 75vw;
+    height: 75px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: auto;
+    color: white;
+    background-color: #302c2c;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 3 00;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: #4d4b4b;
+    transition: 0.1s;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.last {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    top: 250px;
+    font-family: "Poppins", sans-serif;
+}
+
+.last_button {
+    position: relative;
+    z-index: 10;
+    top: 250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    color: white;
+    font-size: 20px;
+}
+
+.footer1 {
+    max-width: 60vw;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    column-gap: 100px;
+    position: absolute;
+    margin-top: 180px;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+/* Existing styles remain, add below */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content h1, .content h2, .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .input input, .input button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .one, .faq {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .one img, .one video {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .faqbox {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+
